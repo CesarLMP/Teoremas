@@ -1,0 +1,34 @@
+\documentclass{article}
+\usepackage{graphicx} 
+\usepackage[spanish] {babel}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\theoremstyle{plain}
+\newtheorem{theorem} {Teorema} [section]
+\newtheorem{corollary}{Corolario}[theorem]
+\newtheorem{lemma}[theorem]{Lema}
+
+
+\title{COM117-202409025}
+\author{Cesar Lucas Mamani Posto}
+\date{September 2024}
+
+\begin{document}
+
+\maketitle
+
+\section{Teoremas}
+\subsection{Ejercicio 1}
+\begin{theorem}
+Si \(f\) es continua en \([a, b]\) y \(f(a) < c < f(b)\), entonces existe algún \(x\) en \([a, b]\) tal que \(f(x) = c\)
+\end{theorem}
+\begin{proof}
+Sea \(g=f-c\) Entonces \(g\) es continua, y \(g(a)<0<g(b)\). Según el teorema 1, existe algún \(x\) en \([a, b]\) tal que \(g(x) = 0\). Pero esto significa que \(f(x) = c\)
+\end{proof}
+
+
+
+
+
+
+\end{document}
